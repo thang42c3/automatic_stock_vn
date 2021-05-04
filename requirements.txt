@@ -50,3 +50,4 @@ Flask-WTF
 schedule
 logging3
 Flask-SQLAlchemy==2.4.4
+Flask-Migrate

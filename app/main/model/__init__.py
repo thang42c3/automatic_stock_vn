@@ -1,1 +1,1 @@
-from app.main.model import code_of_stock, history_of_stock
+from app.main.model import code_of_stock, make_database_of_code

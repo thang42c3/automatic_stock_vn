@@ -1,21 +1,7 @@
-{"file_csv_url":
-  {"lich_su_gia_co_phieu": ".\\file_csv\\lich_su_gia_co_phieu",
-    "lich_su_gia_co_phieu_bo_sung": ".\\file_csv\\lich_su_gia_co_phieu_bo_sung",
-    "kinh_doanh_theo_quy": ".\\file_csv\\kinh_doanh_theo_quy",
-    "kinh_doanh_theo_nam": ".\\file_csv\\kinh_doanh_theo_nam",
-    "can_doi_kt_theo_quy": ".\\file_csv\\can_doi_kt_theo_quy",
-    "can_doi_kt_theo_nam": ".\\file_csv\\can_doi_kt_theo_nam",
-    "lc_theo_quy": ".\\file_csv\\lc_theo_quy",
-    "lc_theo_nam": ".\\file_csv\\lc_theo_nam",
-    "lich_chia_co_tuc": ".\\file_csv\\lich_chia_co_tuc",
-    "tai_san": ".\\file_csv\\tai_san",
-    "nguon_von": ".\\file_csv\\nguon_von",
-    "tien_mat_tren_co_phieu": ".\\file_csv\\tien_mat_tren_co_phieu",
-    "ket_qua_kinh_doanh_quy": ".\\file_csv\\ket_qua_kinh_doanh_quy",
-    "co_cau_loi_nhuan": ".\\file_csv\\co_cau_loi_nhuan",
-    "cpqh_qldn_dt": ".\\file_csv\\cpqh_qldn_dt",
-    "pe_eps": ".\\file_csv\\pe_eps",
-    "roa_roe": ".\\file_csv\\roa_roe"
+{"login_user":
+  {"Username": "743069",
+    "Password": "C7Hk4TlFP8VGjL",
+    "Pin_code": "4ScTwAT45c0GbS"
   },
   "url":
   {"lich_su_gia_co_phieu": "https://www.cophieu68.vn/historyprice.php?id=",

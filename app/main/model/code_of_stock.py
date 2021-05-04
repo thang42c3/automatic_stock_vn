@@ -1,28 +1,31 @@
-from flask import request
-#from flask_wtf import FlaskForm
-#from wtforms import StringField, SubmitField, TextAreaField
-#from wtforms.validators import ValidationError, DataRequired, Length
-#from flask_babel import _, lazy_gettext as _l
-import scrapy
-from scrapy import cmdline
 from app import db
 from app import create_app
-app = create_app()
-app.app_context().push()
-
 import logging
 logging.basicConfig(level=logging.DEBUG)
 
+app = create_app()
+app.app_context().push()
+
+db.metadata.clear()
+#logging.debug(db)
+
+class code_stocks(db.Model):
+    with app.app_context():
+        id = db.Column('id', db.Integer, primary_key = True)
+        symbol = db.Column(db.String(30))
+        volume = db.Column(db.String(30))
+        trading = db.Column(db.String(10))
+        date = db.Column(db.String(10))
+        time = db.Column(db.String(30))
+
+def __init__(self, symbol, volume, trading, date, time):
+     self.symbol = symbol
+     self.volume = volume
+     self.trading = trading
+     self.date = date
+     self.time = time
 
 
-class ma_co_phieus(db.Model):
-    id = db.Column('id', db.Integer, primary_key = True)
-    name = db.Column(db.String(100))
-    code = db.Column(db.String(30))
-
-def __init__(self, name, code):
-     self.name = name
-     self.code = code
 
 #db.metadata.clear()
-#db.create_all()
+db.create_all()
